@@ -332,6 +332,43 @@
 .publication-list li{
     margin-bottom:18px;
 }
+
+
+    .research-grid{
+    display:grid;
+    grid-template-columns:1.15fr .85fr;
+    gap:60px;
+    align-items:center;
+}
+
+.report-mockup{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.report-mockup img{
+    width:100%;
+    max-width:340px;
+    height:auto;
+    display:block;
+    filter:drop-shadow(0 30px 45px rgba(0,0,0,.22));
+    transition:transform .3s ease;
+}
+
+.report-mockup img:hover{
+    transform:translateY(-8px);
+}
+
+@media(max-width:900px){
+    .research-grid{
+        grid-template-columns:1fr;
+    }
+
+    .report-mockup{
+        margin-top:40px;
+    }
+}
   </style>
 </head>
 
