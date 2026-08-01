@@ -437,6 +437,28 @@
     grid-template-columns:1fr;
   }
 }
+  .evidence{
+  padding-bottom:60px;
+}
+
+.evidence .cards{
+  align-items:stretch;
+}
+
+.evidence .card{
+  display:flex;
+  flex-direction:column;
+  height:100%;
+}
+
+.evidence .card .button{
+  margin-top:auto;
+  align-self:flex-start;
+}
+
+.evidence + section{
+  padding-top:60px;
+}
   </style>
 </head>
 
@@ -559,18 +581,23 @@
 </section>
     <section>
       <div class="container">
-        <div class="section-kicker">Research & Publications</div>
+        <div class="section-kicker">Core Topics</div>
         <h2>Selected areas of analysis</h2>
         <p class="intro">
           The work focuses on the practical questions investors, developers, insurers and technology providers face when emerging infrastructure must become financeable.
         </p>
 
         <div class="cards">
-          <article class="card">
-            <span class="tag">Bankability</span>
-            <h3>From Chemistry to Confidence</h3>
-            <p>How technical performance must be translated into protections, evidence and structures that capital providers can evaluate.</p>
-          </article>
+         <article class="card">
+    <span class="tag">Technology Risk</span>
+
+    <h3>From Chemistry to Confidence</h3>
+
+    <p>
+        How technical performance is translated into evidence,
+        contractual protections and investment confidence.
+    </p>
+</article>
 
           <article class="card">
             <span class="tag">Risk</span>
@@ -580,14 +607,18 @@
 
           <article class="card">
             <span class="tag">Project Finance</span>
-            <h3>Revenue Certainty and Capital Structure</h3>
-            <p>Why capital cannot be structured before project risks, counterparties and revenue quality are understood.</p>
+
+<h3>Revenue Certainty</h3>
+
+<p>How revenue quality, counterparties and contractual structures determine whether projects become financeable.</p>
           </article>
 
           <article class="card">
-            <span class="tag">VRFB</span>
-            <h3>Electrolyte, Warranty and Counterparty Risk</h3>
-            <p>How ownership, custody, balance-sheet support and lifecycle obligations influence financeability.</p>
+            <span class="tag">Risk Allocation</span>
+
+<h3>Technology Risk Transfer</h3>
+
+<p>How warranties, insurance, ownership and contractual risk allocation influence investment confidence.</p>
           </article>
 
           <article class="card">
